@@ -31,10 +31,10 @@
     height: 300px;
     position: fixed;
     right: 30px;
-    top: 700px;
+    top: 1000px;
     display: flex;
     flex-direction: column;
-    transition: top .3s;
+    transition: all .3s;
 }
 
 .right-sidebar>div {
