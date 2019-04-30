@@ -54,7 +54,7 @@ p {
     height: 350px;
     line-height: 350px;
     border: 1px solid #dcdcdc;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 
@@ -73,6 +73,13 @@ p {
     z-index: 100;
     border-radius: 4px;
     transition: all .3s;
+}
+
+.refrence .triangle {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    background: transparent;
 }
 
 .refrence.top .hover-cont::before,
@@ -99,6 +106,10 @@ p {
     transform-origin: 50% 100%;
 }
 
+.refrence.top .triangle {
+    top: -16px;
+}
+
 .refrence.top .hover-cont:before {
     border-top: 8px solid #dcdcdc; 
     bottom: -8px;
@@ -116,6 +127,9 @@ p {
     transform-origin: 50% 0%;
     top: 100%;
     margin-top: 16px;
+}
+.refrence.bottom .triangle {
+    bottom: -16px;
 }
 
 .refrence.bottom  .hover-cont::before,
@@ -153,6 +167,13 @@ p {
     top: 50%;
 }
 
+.refrence.left .triangle {
+    width: 16px;
+    height: 100%;
+    left: -16px;
+    margin-top: -100%;
+}
+
 .refrence.left  .hover-cont::before,
 .refrence.left  .hover-cont::after  {
     content: '';
@@ -187,6 +208,13 @@ p {
     top: 50%;
     right: 0px;
     margin-right: -16px;
+}
+
+.refrence.right .triangle {
+    width: 16px;
+    height: 100%;
+    right: -16px;
+    margin-top: -100%;
 }
 
 .refrence.right  .hover-cont::before,
