@@ -95,7 +95,7 @@ p {
     border-left: 8px dashed transparent;
     border-bottom: 0;
     left: 50%;
-    margin-left: -5px;   
+    margin-left: -8px;   
 }
 
 /* --------- top ------- */
@@ -145,7 +145,7 @@ p {
     border-left: 8px dashed transparent;
     border-bottom: 0;
     left: 50%;
-    margin-left: -5px;   
+    margin-left: -8px;   
 }
 
 
@@ -191,6 +191,7 @@ p {
     right: 0px;
     margin-right: -8px;
     top: 50%;
+    margin-top: -8px;
 }
 
 .refrence.left  .hover-cont:before {
@@ -216,6 +217,7 @@ p {
     width: 16px;
     height: 100%;
     right: -16px;
+    bottom: 0px;
     margin-top: -100%;
 }
 
@@ -233,6 +235,7 @@ p {
     border-right: 0;
     left: 0px;
     top: 50%;
+    margin-top:-8px;
 }
 
 .refrence.right  .hover-cont:before {
