@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.something {
+    
+}
+
+.sticky-wrap {
+    height: 70px;
+}
+
+.sticky-container {
+    height: 70px;
+    line-height: 70px;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+
+.active {
+    position: fixed;
+    height: 70px;
+    line-height: 70px;    
+    left: 0px;
+    top: 0px;
+}
