@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <img src="./huaji.jpg" alt="">
+                    <span>strugglexiang</span>
+                </div>
+                <button class="iconfont iconhome_shousuo_h_icon"></button>
+                <ul class="head-collapse">
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        placeHoder
+    </section>
+    <script>
+        var button = document.querySelector('.head button')
+        var collapse = document.querySelector('.head-collapse')
+        button.addEventListener('click', function(event) {
+            collapse.classList.toggle('in')
+        })
+    </script>
+</body>
+</html>
