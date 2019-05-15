@@ -10,14 +10,23 @@ a {
 ul, li {
     list-style: none;
 }
+
+body {
+    padding-top: 90px;
+}
 /*  */
 
 .head {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
     padding: 0 20px;
     height: 90px;
     background: #2c3e50;
     color: #fff;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .logo {
