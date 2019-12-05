@@ -37,7 +37,7 @@
         // -------------------------- textarea模板
         const textD = document.querySelector('.textarea')
         textD.value = tempstr1
-        let textIndex = 0 // area插入点
+        let textIndex = null // area插入点
         textD.addEventListener('blur', function (event) {
             textIndex = event.target.selectionEnd
         })
